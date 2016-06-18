@@ -1728,6 +1728,7 @@ endif
 endmenu
 
 menu "Usedbytes"
+	source "package/usedbytes/docserver/Config.in"
 endmenu
 
 endmenu

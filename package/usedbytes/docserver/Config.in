@@ -1,0 +1,7 @@
+config BR2_PACKAGE_DOCSERVER
+	bool "docserver"
+	select BR2_PACKAGE_HOST_GO
+	help
+		Basic markdown web server
+
+		https://github.com/usedbytes/docserver
