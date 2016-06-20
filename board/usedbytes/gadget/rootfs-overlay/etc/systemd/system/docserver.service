@@ -1,0 +1,6 @@
+[Unit]
+Description=Docserver
+
+[Service]
+WorkingDirectory=/usr/local/share/doc/gadget-doc
+ExecStart=/usr/local/bin/docserver --root='.' --addr='systemd' --template='./private/md_template.html' --error-template='./private/error_template.html' --filter='^private'
