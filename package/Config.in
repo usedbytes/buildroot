@@ -1729,6 +1729,7 @@ endmenu
 
 menu "Usedbytes"
 	source "package/usedbytes/docserver/Config.in"
+	source "package/usedbytes/gadget-doc/Config.in"
 endmenu
 
 endmenu
