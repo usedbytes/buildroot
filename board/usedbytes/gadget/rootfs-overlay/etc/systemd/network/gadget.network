@@ -1,0 +1,5 @@
+[Match]
+Name=usb0
+
+[Network]
+Address=169.254.3.142/16
